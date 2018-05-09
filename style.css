@@ -1,0 +1,106 @@
+*{
+  box-sizing: border-box;
+}
+
+html {
+  background-color: white;
+}
+
+body {
+  margin: auto;
+	width: 1024px;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+.links {
+  margin-left: 80px;
+}
+
+ul {
+  padding-left: 0;
+}
+
+ul li {
+  
+  list-style: none;
+  text-align: center;
+  padding: 10px;
+}
+
+div {
+  width: 50%;
+  margin: auto;
+}
+
+/* TYPOGRAPHY */
+h1, h2 {
+  text-align: center;
+	color: white;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+ul {
+	display: flex;
+	flex-direction: column;
+}
+
+li, p {
+  font-size: 26px;
+}
+
+p {
+	width: 70%;
+	margin: auto;
+	padding: 5px;
+}
+
+
+h3 {
+  font-size: 24px;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	padding-top: 50px;
+}
+
+.footer-name {
+}
+
+h4 {
+  text-align: center;
+}
+
+.logo {
+	display: block;
+	margin: auto;
+}
+
+.profilepic {
+	display: block;
+	margin: auto;
+	display: flex;
+	padding-top: 70px;
+	
+}
+
+.intro {
+	background-color: #fae3d9;
+	height: 600px;
+}
+
+.personality {
+	height: 600px;
+	background-color: #ffb6b9;
+}
+
+.skills {
+	height: 600px;
+	background-color: #bbded6;
+}
+
