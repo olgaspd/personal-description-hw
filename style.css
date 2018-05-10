@@ -61,7 +61,6 @@ p {
 	width: 70%;
 	margin: auto;
 	padding: 5px;
-    
 }
 
 
@@ -90,22 +89,22 @@ h4 {
 	margin: auto;
 	display: flex;
 	padding-top: 70px;
-	max-width: 15%;
-	
+	max-width: 15%;	
 }
 
 .intro {
 	background-color: #fae3d9;
-	height: 600px;
+	height: 700px;
+    margin: 0;
 }
 
 .personality {
-	height: 600px;
+	height: 700px;
 	background-color: #ffb6b9;
 }
 
 .skills {
-	height: 600px;
+	height: 700px;
 	background-color: #bbded6;
 }
 
