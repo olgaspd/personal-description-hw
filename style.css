@@ -4,15 +4,17 @@
 
 html {
   background-color: white;
+  font-family: didot;
 }
 
 body {
   margin: auto;
-	width: 1024px;
+  min-width: 1024px;
 }
 
 footer {
   margin-top: 50px;
+  margin-bottom: 20px;
 }
 
 .links {
@@ -51,6 +53,14 @@ ul {
 	flex-direction: column;
 }
 
+<<<<<<< HEAD
+=======
+li, p {
+  font-size: 26px;
+  color: #696969;
+}
+
+>>>>>>> 55373a4badce6b9a240cc81fecd327d5957e991f
 p {
 	width: 70%;
 	margin: auto;
@@ -80,21 +90,22 @@ h4 {
 	margin: auto;
 	display: flex;
 	padding-top: 70px;
-	
+	max-width: 15%;	
 }
 
 .intro {
 	background-color: #fae3d9;
-	height: 600px;
+	height: 700px;
+    margin: 0;
 }
 
 .personality {
-	height: 600px;
+	height: 700px;
 	background-color: #ffb6b9;
 }
 
 .skills {
-	height: 600px;
+	height: 700px;
 	background-color: #bbded6;
 }
 
