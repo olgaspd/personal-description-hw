@@ -87,7 +87,7 @@ h4 {
 	margin: auto;
 	display: flex;
 	padding-top: 70px;
-	max-width: 15%;	
+	width: 25%;	
 }
 
 .intro {
@@ -106,33 +106,33 @@ h4 {
 	background-color: #bbded6;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 400px) {
 	body {
 		margin: 0;
 	}
 	
 	.intro {
-		width: 320px;
+		width: 400px;
 		height: auto;
 	}
 	.profilepic {
-		width: 80%;
+	  width: 50%;
 		height: auto;
 		padding-top: 0;
 	}
 	
 	.personality {
-		width: 320px;
+		width: 400px;
 		height: auto;
 	}
 	
 	.skills {
-		width: 320px;
+		width: 400px;
 		height: auto;
 	}
 	
 	footer {
-		width: 320px;
+		width: 400px;
 		margin-top: 20px;
 	}
 	
