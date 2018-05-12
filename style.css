@@ -53,14 +53,11 @@ ul {
 	flex-direction: column;
 }
 
-<<<<<<< HEAD
-=======
 li, p {
   font-size: 26px;
   color: #696969;
 }
 
->>>>>>> 55373a4badce6b9a240cc81fecd327d5957e991f
 p {
 	width: 70%;
 	margin: auto;
