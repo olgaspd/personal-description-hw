@@ -163,13 +163,18 @@ a {
 
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 320px) {
 	body {
 		margin: 0;
 	}
 	
+	.logo {
+		display: block;
+		margin: 0;
+	}
+	
 	.intro {
-		width: 400px;
+		width: 320px;
 		height: auto;
 	}
 	.profilepic {
@@ -179,17 +184,17 @@ a {
 	}
 	
 	.personality {
-		width: 400px;
+		width: 320px;
 		height: auto;
 	}
 	
 	.skills {
-		width: 400px;
+		width: 320px;
 		height: auto;
 	}
 	
 	footer {
-		width: 400px;
+		width: 320px;
 		margin-top: 20px;
 	}
 	
@@ -212,6 +217,14 @@ a {
 	
 	h3 {
 		padding: 0;
+	}
+	
+	footer {
+		margin-bottom: 0;
+	}
+	
+	.animation {
+		display: none;
 	}
 }
 
